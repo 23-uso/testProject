@@ -135,6 +135,11 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 INTERNAL_IPS = [
 "127.0.0.1",
 ]
+# settings.py
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://testproject-fwt6.onrender.com',
+]
 
 LOGIN_REDIRECT_URL = 'timeline'
 
